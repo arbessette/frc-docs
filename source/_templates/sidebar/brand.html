@@ -1,0 +1,11 @@
+{% extends '!sidebar/brand.html' %}
+{% block brand_content %}
+{% if not theme_sidebar_hide_name %}
+<span class="sidebar-brand-text"><strong><em>FIRST</em> Robotics Competition</strong></span>
+{% endif %}
+{% if logo_url %}
+<div class="sidebar-logo-container">
+  <img class="sidebar-logo" src="{{ logo_url }}" alt="FIRST and WPILib — a partnership with Worcester Polytechnic Institute" />
+</div>
+{% endif %}
+{% endblock brand_content %}

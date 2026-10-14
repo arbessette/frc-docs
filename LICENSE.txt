@@ -1,0 +1,5 @@
+This documentation is licensed under the Creative Commons Attribution 4.0
+International License: https://creativecommons.org/licenses/by/4.0/
+
+Adapted WPILib styling is attributed in ATTRIBUTION.md and source/about.rst.
+Third-party Python packages retain their own licenses.

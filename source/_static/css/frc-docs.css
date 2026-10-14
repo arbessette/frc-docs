@@ -1,0 +1,7 @@
+/* Local adaptations of the attributed WPILib styles. */
+.content { width: min(900px, 100%); }
+/* Keep every section's nested navigation available. */
+.sidebar-tree > .caption:first-child + ul > .toctree-l1 > ul > .toctree-l2 > input,
+.sidebar-tree > .caption:first-child + ul > .toctree-l1 > ul > .toctree-l2 > label,
+.sidebar-tree > .caption:first-child + ul > .toctree-l1 > ul > .toctree-l2 > ul { display: revert; }
+.sd-card { border-top: 3px solid #009cd7; }
